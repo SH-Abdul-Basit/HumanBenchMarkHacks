@@ -16,7 +16,7 @@ height = 520
 while True:
     time.sleep(0.5)
 
-    if keyboard.is_pressed('q'):
+    if keyboard.is_pressed('x'):
         break
 
     with mss.mss() as sct:
